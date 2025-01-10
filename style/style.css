@@ -26,7 +26,24 @@ body {
     align-items: center;
 }
 
+.navbar>h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
 .signin {
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
     list-style: none;
     width: 116px;
     height: 52px;
@@ -207,24 +224,23 @@ body {
     background: rgb(84, 144, 245);
 }
 
-.container > .ge{
+.container>.ge {
     background: rgb(198, 228, 214);
 }
 
-.ge > button{
+.ge>button {
     background: rgb(9, 161, 92);
 }
 
-.container > .mi{
+.container>.mi {
     background: rgb(247, 235, 207);
 }
 
-.mi > button{
+.mi>button {
     background: rgb(255, 194, 57)
 }
 
 .piller>button {
-    /* margin-top: 35px; */
     color: rgb(255, 255, 255);
     font-family: Fira Sans;
     font-size: 16px;
