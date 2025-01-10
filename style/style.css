@@ -389,7 +389,88 @@ body {
     text-align: left;
 }
 
-.rev{
+.rev {
     display: flex;
     flex-direction: row-reverse;
+}
+
+/* Donate now section */
+
+.donate {
+    height: 464px;
+    margin-top: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.donate>h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate>.para {
+    text-align: center;
+}
+
+.donate>.container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container>.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container>.autoSelect {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(198, 228, 214);
+}
+
+.donate>input {
+    width: 1032px;
+    height: 64px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.container > .items:hover {
+    background: rgb(125, 243, 150);
 }
