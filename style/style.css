@@ -31,6 +31,16 @@
     text-align: left;
 }
 
+.heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 
 /* Navigation Bar */
 
@@ -471,6 +481,58 @@ body {
     text-align: center;
 }
 
-.container > .items:hover {
+.container>.items:hover {
     background: rgb(125, 243, 150);
+}
+
+/* Subscribe section */
+
+.subscribe {
+    margin-top: 80px;
+    width: 1280px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.subscribe>.input {
+    display: flex;
+}
+
+.subscribe>.input>input {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subscribe>.para {
+    text-align: center;
+}
+
+.input>input[type="text"] {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+
+}
+
+.input>.btn {
+    border-radius: 0px 8px 8px 0px;
+
+    background: rgb(0, 106, 80);
+    width: 150px;
+    height: 56px;
 }
