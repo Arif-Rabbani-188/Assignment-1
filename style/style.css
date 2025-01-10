@@ -122,6 +122,7 @@ body {
 .container>.piller {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 16px;
     width: 302px;
     height: 244px;
@@ -151,4 +152,89 @@ body {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/* Vision section */
+
+
+.vision {
+    margin-top: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vision>h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision>p {
+    margin-top: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision>.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+
+}
+
+.vision>.container>.piller {
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+
+.container>.dt {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.dt>button {
+    background: rgb(84, 144, 245);
+}
+
+.container > .ge{
+    background: rgb(198, 228, 214);
+}
+
+.ge > button{
+    background: rgb(9, 161, 92);
+}
+
+.container > .mi{
+    background: rgb(247, 235, 207);
+}
+
+.mi > button{
+    background: rgb(255, 194, 57)
+}
+
+.piller>button {
+    /* margin-top: 35px; */
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    width: 130px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+
 }
