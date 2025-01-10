@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.btn:hover {
+    background: lightcoral
+}
+
 .para {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -87,6 +91,11 @@ body {
     align-items: center;
 }
 
+.signin:hover {
+    background: lightcoral;
+    color: white;
+}
+
 /* Banner Section */
 .topBanner {
     margin-top: 30px;
@@ -131,11 +140,22 @@ body {
 }
 
 .titles>button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
     color: white;
     width: 270px;
     height: 56px;
     border-radius: 8px;
     background: rgb(0, 106, 80);
+}
+
+.titles>button:hover {
+    background: lightcoral;
 }
 
 .topBanner>.image {
@@ -256,6 +276,10 @@ body {
     background: rgb(84, 144, 245);
 }
 
+.dt>button:hover {
+    background: lightcoral;
+}
+
 .container>.ge {
     background: rgb(198, 228, 214);
 }
@@ -264,12 +288,20 @@ body {
     background: rgb(9, 161, 92);
 }
 
+.ge>button:hover {
+    background: lightcoral;
+}
+
 .container>.mi {
     background: rgb(247, 235, 207);
 }
 
 .mi>button {
     background: rgb(255, 194, 57)
+}
+
+.mi>button:hover {
+    background: lightcoral;
 }
 
 .piller>button {
@@ -531,8 +563,11 @@ body {
 
 .input>.btn {
     border-radius: 0px 8px 8px 0px;
-
     background: rgb(0, 106, 80);
     width: 150px;
     height: 56px;
+}
+
+.input>.btn:hover {
+    background: lightcoral;
 }
