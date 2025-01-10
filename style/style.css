@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common Styles */
+
+
+
+
+/* Navigation Bar */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    margin-top: 20px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin {
+    list-style: none;
+    width: 116px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
