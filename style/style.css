@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -87,6 +89,66 @@ body {
     background: rgb(0, 106, 80);
 }
 
-.topBanner > .image{
+.topBanner>.image {
     margin-right: 20px;
+}
+
+/* Pillers */
+
+.pillers {
+    margin-top: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pillers>h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pillers>.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+
+}
+
+.container>.piller {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.piller>h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.piller>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
